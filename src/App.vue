@@ -1,8 +1,8 @@
 <script setup lang="ts">
-  import Art from './components/Art.vue'
+  import ArtMain from './components/ArtMain.vue'
 </script>
 
 <template>
-   <Art />
+   <ArtMain />
 </template>
 
