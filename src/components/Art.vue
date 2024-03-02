@@ -49,10 +49,7 @@
         </div>
       </div>
     </div>
-    <div v-if="isLoading">
-      <BaseSpinner />
-      <p style="position:absolute; top: 53vh; left: 48vw; padding-left: 0.5rem; font-size:0.75rem; color: white;"> Loading </p>
-    </div>
+    <BaseSpinner v-if="isLoading"/>
   </div>
 </template>
 

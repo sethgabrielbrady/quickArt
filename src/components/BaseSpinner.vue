@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="spinner">
+      <p style="position: absolute; font-size:0.75rem; color: white;"> Loading </p>
       <div class="lds-roller">
         <div></div>
         <div></div>
