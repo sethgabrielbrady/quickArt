@@ -6,7 +6,6 @@
         :src="resImage.primaryImage"
         :class="[isZoomed ? 'zoomedImg' : '', 'primaryImage', isLoading ? 'hide' : '']"
         :aria-label="[resImage.title ? resImage.title : 'No img title available.', ]"
-
       />
       <div class="iconbox">
         <div class="buttonContainer">
