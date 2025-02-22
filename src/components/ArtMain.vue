@@ -110,6 +110,7 @@ export default {
     async getRandomId () {
       this.isZoomed = false;
       const response = await axios.get('https://collectionapi.metmuseum.org/public/collection/v1/search?q='+ this.searchValue)
+      console.log(response)
       if (response.status ==! 200 ){
         this.searchValue = "paintings";
         this.process ();
